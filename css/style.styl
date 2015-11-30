@@ -1,0 +1,97 @@
+@import 'nib'
+@import 'nib/gradients'
+
+azul = #1f66c8
+amarillo = #FDE962
+azulF = #013968
+azulC= #C9E4FF
+gris = #668499
+azulHeader = #53a6f5
+
+
+body
+	overflow-x hidden
+header
+	background azulHeader
+	padding 10px 0 6px 0
+	border-bottom 3px solid amarillo
+	div //row
+		text-align center
+
+		.gt-logo, .vb-plus
+			width 170px
+			height 105px
+		
+		
+	.nav-contenedor
+		height 10%
+		.navegador
+			background white
+			border-color white
+			margin-top 10px
+			border-radius 4px
+			ul
+				li
+					border-left 1px solid gris
+					a
+						padding 5px 8px 6px 8px
+						font-weight 600
+						color black
+				.first-li-nav
+					border-left 0
+				.last-li-nav
+					border-right 1px solid gris
+				li:hover
+					background yellow
+			form
+				margin 0
+				input
+					border none
+					outline none
+					width 85px
+					margin-top 2px
+					border-radius 4px
+					height 25px
+				.search-icon
+					position absolute
+					margin-top 7px
+					font-size 18px
+					font-weight 400
+	.vb-link
+		margin-top 15px
+
+		a
+			color amarillo
+			font-weight 900
+			font-size 14px
+			text-shadow -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red
+
+
+
+@media (min-width: 768px)
+	.banner-header
+		width 728px
+		height 90px
+	.nav-contenedor
+		width 1200px
+
+@media (max-width: 768px)
+	.banner-header
+		width 468px
+		height 60px
+
+@media (max-width: 599px)
+	.banner-header
+		width 392px
+		height 72px
+@media (min-width: 599px)
+	.navegador
+		margin-left 2%
+		margin-right 2%
+
+@media (max-width: 479px)
+	.banner-header
+		width 234px
+		height 60px
+
+				
