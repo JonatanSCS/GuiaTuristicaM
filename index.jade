@@ -16,14 +16,14 @@ html(lang="es")
 		div(class="container-fluid")
 			header
 				div(class="row")
-					div(class="col-md-3 col-lg-2 col-xl-3 hidden-xs hidden-sm")
+					div(class="col-md-3 col-lg-2 hidden-xs hidden-sm")
 						img(src="img/GT-logo.png", alt="Guia Turistica Logo", class="gt-logo")
-					div(class="col-sm-12 col-md-8 col-lg-7 col-xl-6")
+					div(class="col-sm-12 col-md-8 col-lg-7")
 						img(src="img/banner-header.jpg", alt="banner-superior", class="banner-header")
-					div(class="col-lg-3 col-xl-3 hidden-md hidden-sm hidden-xs")
+					div(class="col-lg-3 hidden-md hidden-sm hidden-xs")
 						img(src="img/VB-plus.png", alt="Viajes Bojorquez Plus", class="vb-plus")
 				div(class="row")
-					div(class="col-sm-12 col-md-10 col-lg-9 nav-contenedor")
+					div(class="col-sm-12 nav-contenedor")
 						nav(class="navbar navbar-default navegador")
 							div(class="container-fluid")
 								div(class="navbar-header")
@@ -46,15 +46,15 @@ html(lang="es")
 											a(href="") Mapas
 										li
 											a(href="") Traza tu ruta
-										li.last-li-nav
+										li
 											a(href="") Visas y embajadas
-									form(action="", class="navbar-form navbar-left", rol="search")
-										div(class="form-group")
+										li
 											input(type="text", clas="form-control", placeholder="Buscar")
-											//span(class="hidden-xs hidden-lg hidden-xg glyphicon glyphicon-search search-icon")
-
-					div(class="col-md-2 col-lg-3 hidden-xs hidden-sm vb-link")
-						a(href="") ViajesBojorquez.com
-
+											span(class="glyphicon glyphicon-search search-icon")
+										li.li-search-icon
+											
+										li(class="last-li-nav hidden-md hidden-sm")
+											a(href="") Visita www.ViajesBojorquez.com
+											
 		script(src="scripts/jquery.js")
 		script(src="scripts/bootstrap.js")
