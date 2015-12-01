@@ -11,10 +11,12 @@ azulHeader = #53a6f5
 
 body
 	overflow-x hidden
+	height 3000px
 header
 	background azulHeader
 	padding 10px 0 6px 0
 	border-bottom 3px solid amarillo
+	height 165px
 	div //row
 		text-align center
 
@@ -31,7 +33,11 @@ header
 			margin-top 10px
 			border-radius 4px
 			ul
+				float none
+				text-align center
 				li
+					float none
+					//display block
 					border-left 1px solid gris
 					a
 						padding 5px 8px 6px 8px
@@ -47,25 +53,36 @@ header
 					span
 						position absolute
 						font-size 18px
-						font-weight 600
-						margin-top 7px
-						margin-right 5px
-				.first-li-nav
+						font-weight 600	
+						margin-top 5px
+				li:first-child
 					border-left 0
 					margin-right 20px
-				.last-li-nav
+					span
+						margin-top -3px
+						position absolute
+				li:nth-child(6)
+					border-right 1px solid gris
+				li:nth-child(7)
+					border-right none
+				li:last-child
+					border-left none
 					a
 						margin-left 50px
 						color amarillo
 						font-weight 900
 						font-size 14px
 						text-shadow -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red
+				li:nth-child(8)
+					border-left none
 				a:hover
 					color amarillo
-	.vb-link
-		margin-top 15px
 
-		
+
+@media (min-width: 768px)
+	.inline-b
+		border none
+		display inline-block
 
 
 @media (min-width: 768px)
@@ -75,12 +92,15 @@ header
 	.nav-contenedor
 		width 1200px
 
+
 @media (max-width: 768px)
 	.banner-header
 		width 468px
 		height 60px
 	.first-li-nav
 		margin-bottom 15px
+
+	
 
 @media (max-width: 599px)
 	.banner-header
