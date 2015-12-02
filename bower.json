@@ -1,0 +1,21 @@
+{
+  "name": "Guia Turistica México",
+  "description": "Pagina responsiva para Guia Turistica México de Viajes Bojórquez",
+  "main": "index.html",
+  "authors": [
+    "Jonatan Santa Cruz Soria"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/JonatanSCS/GuiaTuristicaM",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0"
+  }
+}

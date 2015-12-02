@@ -1,0 +1,31 @@
+link(rel="import", href="../bower_components/polymer/polymer.html")
+link(rel="stylesheet", href="../css/style.css")
+dom-module(id="arte-lista")
+	template
+		div(class="col-sm-2 arte-cultura")
+			h2 Arte y Cultura
+			ul
+				li
+					a(href="") Destinos
+				li
+					a(href="") Historia
+				li
+					a(href="") Personajes
+				li
+					a(href="") Leyendas
+				li
+					a(href="") Gastronomía
+				li
+					a(href="") Festivales
+				li
+					a(href="") Zonas Arqueológicas
+				li
+					a(href="") Cultura Nacional
+				li
+					a(href="") Naturaleza
+				li
+					a(href="") Videos
+				li.li-banner
+					img(src="../img/banner-arte.jpg", alt="Banner-Publicitario")
+	script.
+		Polymer({ is: "arte-lista" });
