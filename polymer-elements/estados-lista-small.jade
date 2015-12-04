@@ -1,0 +1,78 @@
+link(rel="import", href="../bower_components/polymer/polymer.html")
+link(rel="stylesheet", href="../css/style.css")
+dom-module(id="estados-lista-small")
+	template
+		div(class="dropdown col-xs-6 estados-small")
+			button(type="button", class="btn btn-default dropdown-toggle", data-toggle="dropdown", arial-haspopup="true", arial-expanded="false") Estados
+				span(class="caret")
+			ul(class="dropdown-menu scrollable-menu")
+				li
+					a(href="") Aguascalientes
+				li
+					a(href="") Baja California
+				li
+					a(href="") Baja California Sur
+				li
+					a(href="") Campeche
+				li
+					a(href="") Chiapas
+				li
+					a(href="") Chihuahua
+				li
+					a(href="") Coahuila
+				li
+					a(href="") Colima
+				li
+					a(href="") Distrito Federal
+				li
+					a(href="") Durango
+				li
+					a(href="") Estado de México
+				li
+					a(href="") Guanajuato
+				li
+					a(href="") Guerrero
+				li
+					a(href="") Hidalgo
+				li
+					a(href="") Jalisco
+				li
+					a(href="") Michoacán
+				li
+					a(href="") Morelos
+				li
+					a(href="") Nayarit
+				li
+					a(href="") Nuevo León
+				li
+					a(href="") Oaxaca
+				li
+					a(href="") Puebla
+				li
+					a(href="") Querétaro
+				li
+					a(href="") Quintana Roo
+				li
+					a(href="") San Luis Potosí
+				li
+					a(href="") Sinaloa
+				li
+					a(href="") Sonora
+				li
+					a(href="") Tabasco
+				li
+					a(href="") Tamaulipas
+				li
+					a(href="") Tlaxcala
+				li
+					a(href="") Veracruz
+				li
+					a(href="") Yucatán
+				li
+					a(href="") Zacatecas
+
+		//script(src="../scripts/jquery.js")
+		//script(src="../scripts/bootstrap.js")
+		//script(src="../scripts/jquery-cambios.js")		
+	script.
+		Polymer({ is: "estados-lista-small" });

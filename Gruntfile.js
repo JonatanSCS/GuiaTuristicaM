@@ -26,6 +26,9 @@ module.exports = function(grunt) {
           'polymer-elements/arte-cultura.html': 'polymer-elements/arte-cultura.jade',
           'polymer-elements/estados-lista.html': 'polymer-elements/estados-lista.jade',
           'polymer-elements/header-nav.html': 'polymer-elements/header-nav.jade',
+          'polymer-elements/estados-lista-small.html': 'polymer-elements/estados-lista-small.jade',
+          'polymer-elements/arte-cultura-small.html': 'polymer-elements/arte-cultura-small.jade'
+
 
         }
       } 
@@ -59,7 +62,10 @@ module.exports = function(grunt) {
                         'index.jade',
                         'polymer-elements/arte-cultura.jade',
                         'polymer-elements/estados-lista.jade',
-                        'polymer-elements/header-nav.jade'
+                        'polymer-elements/header-nav.jade',
+                        'polymer-elements/estados-lista-small.jade',
+                        'polymer-elements/arte-cultura-small.jade'
+
                         ],
 
 

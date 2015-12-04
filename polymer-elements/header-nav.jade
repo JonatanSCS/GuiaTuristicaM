@@ -1,6 +1,8 @@
 link(rel="import", href="../bower_components/polymer/polymer.html")
 link(rel="stylesheet", href="../css/style.css")
 link(rel="stylesheet", href="../css/bootstrap.css")
+
+
 dom-module(id="header-nav")
 	template
 		div(class="container-fluid")
@@ -26,8 +28,9 @@ dom-module(id="header-nav")
 								div(class="collapse navbar-collapse")
 									ul(class="nav navbar-nav")
 										li.inline-b
-											a(href="../index.html")
+											a(href="", class="hidden-xs") 
 												span(class="glyphicon glyphicon-home")
+											a(href="", class="hidden-sm hidden-md hidden-lg") Home
 										li.inline-b
 											a(href="") Claves LADA
 										li.inline-b
@@ -39,11 +42,12 @@ dom-module(id="header-nav")
 										li.inline-b
 											a(href="") Visas y embajadas
 										li.inline-b
-											input(type="text", clas="form-control", placeholder="Buscar")
+											input(type="text", class="form-control", placeholder="Buscar")
 											span(class="glyphicon glyphicon-search search-icon")
 
 										li(class="hidden-md hidden-sm pull-right inline-b vb-link")
 											a(href="", class="vb-link") Visita www.ViajesBojorquez.com
+				
 		script(src="../scripts/jquery.js")
 		script(src="../scripts/bootstrap.js")
 		script(src="../scripts/jquery-cambios.js")
