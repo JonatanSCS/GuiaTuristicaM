@@ -5,20 +5,12 @@ html(lang="es")
 		title Guia Turistica México
 		meta(charset="UTF-8")
 		meta(name="viewport" content="width=device-width, initial-scale=1, user-scalable=no")
-		link(rel="stylesheet", href="css/style.css")
-		link(rel="stylesheet", href="css/bootstrap.css")
-		link(rel="import", href="polymer-elements/header-nav.html")
-		link(rel="import", href="polymer-elements/estados-lista.html")
-		link(rel="import", href="polymer-elements/arte-cultura.html")
-		link(rel="import", href="polymer-elements/estados-lista-small.html")
-		link(rel="import", href="polymer-elements/arte-cultura-small.html")
 		meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
 		meta(name="site_name" content="Guia Turistica México")
 		meta(name="description" content="La fuente de información que el sector turístico estaba necesitando. Directorio Turístico con información sobre destinos y herramientas para el turista.")
 		meta(name="title" content="Guia Turistica México")
 
 	body
-		//header-nav
 		div(class="container-fluid")
 			header
 				div(class="row row-header-imagenes")
@@ -64,7 +56,6 @@ html(lang="es")
 
 		div(class="container-fluid cuerpo-guia")
 			div(class="row")
-				//estados-lista(class="hidden-xs")
 				div(class="col-sm-2 estados-lista hidden-xs")
 					h2 Estados
 					ul
@@ -134,8 +125,6 @@ html(lang="es")
 							a(href="") Zacatecas
 
 
-
-				//estados-lista-small(class="hidden-sm hidden-md hidden-lg")
 				div(class="dropdown col-xs-6 estados-small hidden-sm hidden-md hidden-lg")
 					button(type="button", class="btn btn-default dropdown-toggle", data-toggle="dropdown", arial-haspopup="true", arial-expanded="false") Estados
 						span(class="caret")
@@ -206,7 +195,6 @@ html(lang="es")
 							a(href="") Zacatecas
 
 
-				//arte-lista-small(class="hidden-sm hidden-md hidden-lg")
 				div(class="dropdown col-xs-6 arte-small hidden-sm hidden-md hidden-lg")
 					button(type="button", class="btn btn-default dropdown-toggle", data-toggle="dropdown", arial-haspopup="true", arial-expanded="false") Arte y Cultura
 						span(class="caret")
@@ -300,8 +288,6 @@ html(lang="es")
 
 
 
-					
-				//arte-lista(class="hidden-xs")
 				div(class="col-sm-2 arte-lista hidden-xs")
 					h2 Arte y Cultura
 					ul
@@ -328,7 +314,8 @@ html(lang="es")
 						li.li-banner
 							img(src="img/banner-arte.jpg", alt="Banner-Publicitario")
 				
-										
+		link(rel="stylesheet", href="css/style.css")
+		link(rel="stylesheet", href="css/bootstrap.css")								
 		script(src="scripts/jquery.js")
 		script(src="scripts/bootstrap.js")
 		script(src="scripts/jquery-cambios.js")
