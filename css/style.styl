@@ -11,7 +11,7 @@ azulHeader = #53a6f5
 
 body
 	overflow-x hidden
-	height 3000px
+	height auto
 	
 	header
 		background azulHeader
@@ -19,7 +19,7 @@ body
 		border-bottom 3px solid amarillo
 		height 165px
 		box-shadow 2px 2px 3px 2px gris
-		z-index 1
+		z-index 3
 		
 		div //row
 			text-align center
@@ -45,8 +45,9 @@ body
 					border-color white
 					margin-top 10px
 					border-radius 4px
+					
 					ul
-						
+						overflow scroll
 						float none
 						text-align center
 						li
@@ -153,6 +154,8 @@ body
 			
 			.estados-small, .arte-small
 				text-align center
+				z-index 2
+				
 
 				
 				
@@ -175,18 +178,44 @@ body
 					height auto
 					max-height 80vh
 					overflow-x hidden
+			
+			.home-contenido	
+				height auto
+				text-align center
+				.videos
+					margin-top 15px
+					video
+						width 100%
+				.contenedor
+					.elemento
+						background #f1f8ff
+						border-radius 10px
+						float left
+						margin-top 15px
+						margin-left 6px
+						padding 0
+						h4
+							text-align center
+							a
+								color #007c92
+								font-size 15px
+								font-weight 700
+						img
+							width 100%
+							margin-bottom 30px
+						p
+							text-align left
+							color #444
+							font-size 12px
+							padding 0 5px
+				
+					
 						
-							
 					
 
 
-@media (min-width: 768px)
-	.inline-b
-		border none
-		display inline-block
-		input
-			width 100px
-		
+//@media (min-width: 768px)
+	
 
 @media (max-width: 767px)
 	.navegador
@@ -215,6 +244,22 @@ body
 			li
 				a
 					color azul
+					
+
+
+//@media (min-width: 1129)
+	//.elemento
+		//width 30%
+
+
+
+@media (min-width: 992px)
+	.inline-b
+		input
+			width 250px
+	//.elemento
+	//	width 27%
+
 
 
 @media (min-width: 768px)
@@ -223,7 +268,12 @@ body
 		height 90px
 	.nav-contenedor
 		width 1200px
-
+		.inline-b
+			border none
+			display inline-block
+			input
+				width 100px
+		
 
 @media (max-width: 768px)
 	.banner-header
@@ -237,14 +287,6 @@ body
 			
 		span
 			margin-right 20px
-
-@media (min-width: 992px)
-	.inline-b
-		input
-			width 250px
-
-	
-
 @media (max-width: 599px)
 	.banner-header
 		width 392px

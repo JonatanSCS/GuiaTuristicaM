@@ -234,8 +234,73 @@ html(lang="es")
 						li(class="li-banner hidden-xs hidden-sm")
 							img(src="img/banner-arte.jpg", alt="Banner-Publicitario")
 
-				div(class="col-xs-12 col-sm-8 col-md-8")
-					h2 Estados
+
+
+
+				div(class="col-xs-12 col-sm-8 col-md-8 home-contenido container-fluid")
+					div(class="videos col-sm-3 hidden-xs hidden-sm")
+						video(src="http://v2v.cc/~j/theora_testsuite/320x240.ogg")
+						video(src="http://v2v.cc/~j/theora_testsuite/320x240.ogg")
+						video(src="http://v2v.cc/~j/theora_testsuite/320x240.ogg")
+						video(src="http://v2v.cc/~j/theora_testsuite/320x240.ogg")
+						video(src="http://v2v.cc/~j/theora_testsuite/320x240.ogg")
+						video(src="http://v2v.cc/~j/theora_testsuite/320x240.ogg")
+						video(src="http://v2v.cc/~j/theora_testsuite/320x240.ogg")
+						video(src="http://v2v.cc/~j/theora_testsuite/320x240.ogg")
+
+					div(class="contenedor col-sm-offset-1 col-sm-12 col-md-8")
+						div(class="elemento col-sm-4 col-md-3")
+							h4
+								a(href="") Nombre del articulo
+							img(src="http://lorempixel.com/220/300", alt="")
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, voluptates sapiente, ipsam maiores laborum magni nobis ullam, cum quos, officia sint?
+								a(href="") --Sección
+						div(class="elemento col-sm-4 col-md-3")
+							h4
+								a(href="") Nombre del articulo
+							img(src="http://lorempixel.com/432/300", alt="")
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis beatae quaerat, aspernatur dolorem. Temporibus fuga et, pariatur, praesentium placeat voluptatum mollitia.
+								a(href="") --Sección
+						div(class="elemento col-sm-4 col-md-3")
+							h4
+								a(href="") Nombre del articulo
+							img(src="http://lorempixel.com/342/300", alt="")
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at tempore nisi error doloribus quibusdam laudantium, vitae porro, atque eaque eius.
+								a(href="") --Sección
+						div(class="elemento col-sm-4 col-md-3")
+							h4
+								a(href="") Nombre del articulo
+							img(src="http://lorempixel.com/123/300", alt="")
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla perferendis, reprehenderit aliquam repellat suscipit veritatis delectus voluptatem voluptates. Placeat, sunt, cumque.
+								a(href="") --Sección
+						div(class="elemento col-sm-4 col-md-3")
+							h4
+								a(href="") Nombre del articulo
+							img(src="http://lorempixel.com/220/300", alt="")
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis fuga culpa quaerat quidem, magnam, illo accusamus voluptate perspiciatis sint recusandae magni.
+								a(href="") --Sección
+						div(class="elemento col-sm-4 col-md-3")
+							h4
+								a(href="") Nombre del articulo
+							img(src="http://lorempixel.com/432/300", alt="")
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere assumenda rerum, dolores qui illo repellendus voluptatum laborum reiciendis voluptates necessitatibus unde.
+								a(href="") --Sección
+						div(class="elemento col-sm-4 col-md-3")
+							h4
+								a(href="") Nombre del articulo
+							img(src="http://lorempixel.com/342/300", alt="")
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, non reprehenderit voluptatibus quidem consectetur eveniet nisi hic facilis rerum, vitae at.
+								a(href="") --Sección
+						div(class="elemento col-sm-4 col-md-3")
+							h4
+								a(href="") Nombre del articulo
+							img(src="http://lorempixel.com/123/300", alt="")
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae laborum ullam beatae totam quis, modi cupiditate, reprehenderit, nulla accusamus libero voluptate.
+								a(href="") --Sección
+
+
+
+					
 				//arte-lista(class="hidden-xs")
 				div(class="col-sm-2 arte-lista hidden-xs")
 					h2 Arte y Cultura
@@ -267,3 +332,16 @@ html(lang="es")
 		script(src="scripts/jquery.js")
 		script(src="scripts/bootstrap.js")
 		script(src="scripts/jquery-cambios.js")
+		script(src="scripts/masonry.js")
+		script(src="scripts/images-load.js")
+		script.
+
+			var $container = $('.contenedor');
+				$container.imagesLoaded(function(){
+					$container.masonry();
+				});
+			
+
+		
+
+
